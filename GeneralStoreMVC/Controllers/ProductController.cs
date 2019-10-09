@@ -10,6 +10,7 @@ using GeneralStoreMVC.Models;
 
 namespace GeneralStoreMVC.Controllers
 {
+    [Authorize]
     public class ProductController : Controller
     {
         private ApplicationDbContext _db = new ApplicationDbContext();

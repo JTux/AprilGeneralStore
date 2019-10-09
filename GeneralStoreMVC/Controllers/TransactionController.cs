@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace GeneralStoreMVC.Controllers
 {
+    [Authorize]
     public class TransactionController : Controller
     {
         private ApplicationDbContext _db = new ApplicationDbContext();
